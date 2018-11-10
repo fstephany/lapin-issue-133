@@ -1,0 +1,15 @@
+[package]
+name = "lapin-issue-133"
+version = "0.1.0"
+authors = ["Francois Stephany <francois@tamere.eu>"]
+
+[[bin]]
+name = "producer"
+
+[[bin]]
+name = "consumer"
+
+[dependencies]
+lapin-futures = "^0.14"
+tokio = "0.1.8"
+time = "0.1"
